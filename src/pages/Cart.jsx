@@ -19,6 +19,7 @@ function Cart() {
 
   const onClearCart = () => {
     if (window.confirm('Вы действительно хотите очистить корзину?')) {
+      dispatch(clearCart())
 
     }
   };
