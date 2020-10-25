@@ -11,7 +11,7 @@ html {
   }
 }
 .containerImage{
-  width: 100%;
+  min-width: 100%;
   min-height: 100vh;
   background: #181818;
 }
@@ -30,6 +30,7 @@ html {
 
 .content {
   padding: 40px 0;
+  height: 1944px;
 
   &__title {
     margin: 35px 0;

@@ -7,7 +7,7 @@ import backgroundFon from "../src/img/1586167047_5-p-chernie-foni-s-pitstsami-31
 
 function App() {
   return (
-      <div className="containerImage" style={{backgroundImage:`url(${backgroundFon})`,backgroundRepeat: 'no-repeat',backgroundSize:"contain"}}>
+      <div className="containerImage" style={{backgroundImage:`url(${backgroundFon})`,backgroundRepeat: 'repeat-y',backgroundSize:"contain"}}>
     <div className="wrapper">
       <Header />
       <div className="content">
